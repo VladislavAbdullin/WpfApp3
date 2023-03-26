@@ -100,7 +100,7 @@ namespace WpfApp3.Windows
                 {"<Стоимость>",Convert.ToString(price)},
                 {"<Сдача>", Convert.ToString(money-price)},
                // {"<Товар>", Convert.ToBoolean(Карандаш.IsChecked == true)}
-                
+                //
             };
             helper.Process(items);
         }
