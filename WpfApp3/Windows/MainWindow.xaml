@@ -11,6 +11,8 @@
             <RowDefinition Height="223*"/>
             <RowDefinition Height="196*"/>
         </Grid.RowDefinitions>
+             <Image Width="200" 
+        Source="\Image\Screenshot_1.png" Margin="555,3,45,204" Grid.RowSpan="2"/>
         <Label Grid.Row="1" Content="Сумма, внесенная покупателем" HorizontalAlignment="Left"  VerticalAlignment="Top" Width="227" Margin="10,7,0,0"/>
         <CheckBox x:Name="Карандаш" Content="Карандаши цветные(12 шт)" HorizontalAlignment="Left" Margin="74,80,0,0" VerticalAlignment="Top"/>
         <CheckBox x:Name="Тетрадь" Content="Тетрадь" HorizontalAlignment="Left" Margin="74,118,0,0" VerticalAlignment="Top"/>
